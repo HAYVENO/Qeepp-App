@@ -1,0 +1,144 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	font-family: "Montserrat", sans-serif;
+}
+body {
+	background: #eee;
+	padding: 0 16px;
+}
+
+.timer {
+	font-size: 25px;
+	text-align: center;
+	margin-bottom: 28px;
+	background-color: rgba(41, 173, 255, 0.433);
+	color: white;
+	margin-right: -16px;
+	margin-left: -16px;
+}
+
+header {
+	background-color: #f5ba13;
+	margin: auto -16px;
+	padding: 16px 30px;
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+	color: #fff;
+	font-family: "McLaren", cursive;
+	font-weight: 200;
+}
+/* /////////// */
+.note {
+	position: relative;
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 0 2px 5px #ccc;
+	padding: 10px;
+	width: 240px;
+	margin: 16px;
+	float: left;
+	transition: all 0.5s ease-out;
+}
+
+.note h1 {
+	font-size: 0.9em;
+	margin-bottom: 6px;
+	color: rgba(0, 0, 0, 0.681);
+}
+.note p {
+	color: rgba(0, 0, 0, 0.509);
+	font-size: 0.9em;
+	margin-bottom: 10px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.card-btn-wrap {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.input-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-card {
+	position: relative;
+	background: #fff;
+	border-radius: 7px;
+	box-shadow: 0 2px 5px #ccc;
+	padding: 10px;
+	width: 240px;
+	margin: 16px;
+}
+
+.input-card input[type="text"] {
+	box-sizing: border-box;
+	width: 70%;
+	padding: 0.5rem;
+	border: none;
+	font-size: 0.9em;
+	margin-bottom: 10px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	background: transparent;
+}
+
+.input-card input:nth-child(2) {
+	width: 100%;
+}
+
+.input-card input:focus {
+	border: none;
+	outline: none;
+}
+
+.submit-btn {
+	position: absolute;
+	bottom: -20px;
+	right: 22px;
+	background-color: #f5ba13;
+	box-shadow: 0 -1px 6px 0px rgba(41, 41, 41, 0.649);
+	border: none;
+	color: white;
+	padding: 14px 12px;
+	font-size: 50%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 2px 2px;
+	cursor: pointer;
+	border-radius: 50%;
+}
+
+footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 2.5rem;
+}
+
+footer p {
+	color: rgb(255, 255, 255);
+	background-color: #5f2603;
+}
+
+.page-container {
+	position: relative;
+	min-height: 100vh;
+}
+
+.content-wrap {
+	/* position: absolute; */
+	padding-bottom: 2.5rem;
+	width: 100%;
+}
