@@ -7,7 +7,10 @@ function Note(props) {
 			<p>{props.content}</p>
 			<div className="card-btn-wrap">
 				<button onClick={() => props.onClick(props.id)}>
-					<span style={{ color: "#956e00", cursor: "pointer" }} className="material-symbols-outlined">
+					<span
+						style={{ color: "#956e00", cursor: "pointer" }}
+						className="material-symbols-outlined"
+					>
 						delete
 					</span>
 				</button>

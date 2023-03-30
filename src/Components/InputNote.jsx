@@ -15,7 +15,13 @@ function InputNote(props) {
 	return (
 		<div className="input-container">
 			<div className="input-card">
-				<input name="title" value={input.title} onChange={handleChange} type="text" placeholder="Title" />
+				<input
+					name="title"
+					value={input.title}
+					onChange={handleChange}
+					type="text"
+					placeholder="Title"
+				/>
 				<input
 					name="content"
 					value={input.content}
@@ -30,7 +36,7 @@ function InputNote(props) {
 						setInput({ title: "", content: "" });
 					}}
 				>
-					Add
+					Add note
 				</button>
 			</div>
 		</div>
