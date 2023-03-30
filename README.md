@@ -18,11 +18,11 @@ Qeepp was built using the following technologies:
 
 ## How to Use Qeepp
 
-To use Qeepp, simply clone the repository and install the dependencies. Then, run the app using the `npm start` command. You can create new notes, edit existing ones, and organize them using labels. When you're done using the app, your notes will be saved in the browser's Local Storage, so they'll be available the next time you open the app.
+To use Qeepp, simply clone the repository and install the dependencies: `git clone https://github.com/your-username/qeepp.git`, `cd qeepp`, and `npm install`. Then, run the app using the following command: npm start.. You can create new notes, edit existing ones, and organize them using labels. When you're done using the app, your notes will be saved in the browser's Local Storage, so they'll be available the next time you open the app.
 
 ## About the Developer
 
-Qeepp was built by me - Yusuf Abdulhafeez, a React developer with experience in building web applications and user interfaces. This app was built as a way to demonstrate my ability to create clean and functional UIs with React, and to showcase my skills as a developer.
+Qeepp was built by me - Yusuf Abdulhafeez (HAYVENO), a React developer with experience in building web applications and user interfaces. This app was built as a way to demonstrate my ability to create simple and functional UIs with React, and to showcase my skills as a developer.
 
 ## Conclusion
 
