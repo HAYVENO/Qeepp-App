@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { BsPen } from "react-icons/bs";
 
 function InputNote(props) {
 	const [input, setInput] = useState({
@@ -36,7 +37,8 @@ function InputNote(props) {
 						setInput({ title: "", content: "" });
 					}}
 				>
-					Add note
+					Add note &nbsp;
+					<BsPen />
 				</button>
 			</div>
 		</div>

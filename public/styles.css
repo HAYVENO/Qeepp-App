@@ -4,37 +4,43 @@
 	box-sizing: border-box;
 }
 html {
-	font-family: "Montserrat", sans-serif;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva,
+		Verdana, sans-serif;
 }
 body {
 	background: #eee;
 	padding: 0 16px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .timer {
 	font-size: 25px;
 	text-align: center;
 	margin-bottom: 28px;
-	background-color: rgba(41, 173, 255, 0.433);
+	background-color: rgb(0, 3, 23);
 	color: white;
 	margin-right: -16px;
 	margin-left: -16px;
+	padding: 0.4rem 0;
 }
 
 header {
-	background-color: #f5ba13;
+	background: linear-gradient(120deg, #58194e, #ab4182 130%);
+	font-size: ;
 	margin: auto -16px;
-	padding: 16px 30px;
+	padding: 18px 30px;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
 	color: #fff;
-	font-family: "McLaren", cursive;
 	font-weight: 200;
 }
 /* /////////// */
 .note {
+	font-family: "Comic Neue", sans-serif;
+
 	position: relative;
 	background: #fff;
 	border-radius: 7px;
@@ -47,13 +53,15 @@ header h1 {
 }
 
 .note h1 {
-	font-size: 0.9em;
-	margin-bottom: 6px;
-	color: rgba(0, 0, 0, 0.681);
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	margin-bottom: 0.6rem;
+	color: #4a1942;
 }
 .note p {
-	color: rgba(0, 0, 0, 0.509);
-	font-size: 0.9em;
+	color: rgb(0, 0, 0);
+	font-weight: 400;
+	font-size: 0.9rem;
 	margin-bottom: 10px;
 	white-space: pre-wrap;
 	word-wrap: break-word;
@@ -62,6 +70,10 @@ header h1 {
 .card-btn-wrap {
 	display: flex;
 	justify-content: flex-end;
+}
+
+.card-btn-wrap button {
+	width: 27px;
 }
 
 .input-container {
@@ -81,19 +93,23 @@ header h1 {
 }
 
 .input-card input[type="text"] {
+	font-family: monospace;
 	box-sizing: border-box;
 	width: 70%;
 	padding: 0.5rem;
 	border: none;
-	font-size: 0.9em;
+	font-size: 1rem;
 	margin-bottom: 10px;
 	white-space: pre-wrap;
 	word-wrap: break-word;
 	background: transparent;
+	text-transform: capitalize;
 }
 
 .input-card input:nth-child(2) {
 	width: 100%;
+	text-transform: none;
+	font-size: 0.8rem;
 }
 
 .input-card input:focus {
@@ -102,21 +118,29 @@ header h1 {
 }
 
 .submit-btn {
+	font-family: inherit;
+	font-weight: 700;
 	position: absolute;
-	bottom: -20px;
+	bottom: -15px;
 	right: 22px;
-	background-color: #f5ba13;
-	box-shadow: 0 -1px 6px 0px rgba(41, 41, 41, 0.649);
-	border: none;
+	background-color: #702759;
+	/* box-shadow: 5px 5px 0px rgb(116, 116, 116); */
 	color: white;
-	padding: 14px 12px;
-	font-size: 50%;
+	padding: 8px 12px;
+	font-size: 0.8rem;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	margin: 2px 2px;
+
 	cursor: pointer;
-	border-radius: 50%;
+	border-radius: 4px;
+	border: 1px solid white;
+	transition: all 0.3s ease-out;
+	text-transform: capitalize;
+}
+
+.submit-btn:hover {
+	box-shadow: 5px 5px 0px rgb(116, 116, 116);
 }
 
 footer {
@@ -129,7 +153,7 @@ footer {
 
 footer p {
 	color: rgb(255, 255, 255);
-	background-color: #5f2603;
+	background-color: #45133c;
 }
 
 .page-container {
