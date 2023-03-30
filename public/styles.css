@@ -174,11 +174,19 @@ footer p {
 
 .page-container {
 	position: relative;
-	min-height: 87vh;
+	min-height: 100vh;
 }
 
 .content-wrap {
 	/* position: absolute; */
 	padding-bottom: 2.5rem;
 	width: 100%;
+}
+
+/* media queries */
+
+@media (max-width: 767px) {
+	.page-container {
+		min-height: 87vh;
+	}
 }
