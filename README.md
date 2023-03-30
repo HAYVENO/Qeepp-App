@@ -37,4 +37,4 @@ Qeepp was built by me - Yusuf Abdulhafeez (HAYVENO), a React developer with expe
 
 ## Conclusion
 
-Thank you for checking out Qeepp, a note-taking app built with React. The app is primarily to showcase my basic React and React hooks skills. Thank you checking Qeep out.
+Thank you for checking out Qeepp, a note-taking app built with React. The app is primarily to showcase my basic React and React hooks skills. Most importantly, thanks for checking out my repo. If you appreciate the effort put into this, please do well to star the repo. Thanks ;)
