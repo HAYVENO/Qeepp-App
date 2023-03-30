@@ -1,5 +1,7 @@
 # Qeepp - A Note-Taking App
 
+Uploading QeepApp showcase.mov… 
+
 Qeepp is a simple and intuitive note-taking app built with React that allows users to quickly jot down their thoughts and ideas. With Qeepp, users can easily create, edit, and delete notes, as well as organize them using labels.
 
 ## Features
