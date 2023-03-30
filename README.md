@@ -4,30 +4,29 @@ Qeepp is a simple and intuitive note-taking app built with React that allows use
 
 ## Features
 
-- **Create notes:** Quickly create new notes with a title and body text.
-- **Delete notes:** Delete notes that are no longer needed.
-- **Responsive design:** Qeepp's responsive design ensures that the app looks great on any device, from desktops to mobile phones.
+-  **Create notes:** Quickly create new notes with a title and body text.
+-  **Delete notes:** Delete notes that are no longer needed.
+-  **Responsive design:** Qeepp's responsive design ensures that the app looks great on any device, from desktops to mobile phones.
 
 ## Technologies Used
 
 Qeepp was built using the following technologies:
 
-- **React:** The app was built with React, a popular JavaScript library for building user interfaces.
-- **React Hooks:** React Hooks were used to manage the state of the app and handle user interactions.
-- **Local Storage:** The app uses the browser's Local Storage API to persist notes across sessions.
+-  **React:** The app was built with React, a popular JavaScript library for building user interfaces.
+-  **React Hooks:** React Hooks were used to manage the state of the app and handle user interactions.
+-  **Local Storage:** The app uses the browser's Local Storage API to persist notes across sessions. No servers, no privacy breach — your notes, your safe.
 
 ## How to Use Qeepp
 
-To use Qeepp, simply clone the repository and install the dependencies using `git clone https://github.com/HAYVENO/Qeepp-App.git` then `cd qeepp` to open the directory, and `npm install` to install the dependencies. 
+To use Qeepp, simply clone the repository and install the dependencies using `git clone https://github.com/HAYVENO/Qeepp-App.git` then `cd qeepp` to open the directory, and `npm install` to install the dependencies.
 
 Here is the code snippet:
-``` 
+
+```
 $ git clone https://github.com/HAYVENO/Qeepp-App.git
 $ cd qeepp
 $ npm install
 ```
-
-
 
 Then, run the app using the following command: npm start.. You can create new notes, edit existing ones, and organize them using labels. When you're done using the app, your notes will be saved in the browser's Local Storage, so they'll be available the next time you open the app.
 
