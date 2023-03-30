@@ -28,6 +28,10 @@ function App() {
 	setInterval(getMeTime, 1000);
 
 	function handleClick(input) {
+		// If there is no Note title, do nothing
+		if (!input.title) return;
+
+		// Push the current Note to the array
 		setNotes([...notesArray, input]);
 	}
 
@@ -42,15 +46,17 @@ function App() {
 				<Header />
 				<h1 className="timer">{time}</h1>
 				<InputNote onClick={handleClick} />
-				{notesArray.map((note, index) => (
-					<Note
-						key={index}
-						id={index}
-						title={note.title}
-						content={note.content}
-						onClick={deleteItem}
-					/>
-				))}
+				<div className="note-container">
+					{notesArray.map((note, index) => (
+						<Note
+							key={index}
+							id={index}
+							title={note.title}
+							content={note.content}
+							onClick={deleteItem}
+						/>
+					))}
+				</div>
 				<Footer />
 			</div>
 		</div>

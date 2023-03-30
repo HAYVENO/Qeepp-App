@@ -8,7 +8,7 @@ function Note(props) {
 			<p>{props.content}</p>
 			<div className="card-btn-wrap">
 				<AiFillDelete
-					style={{ color: "#45133c", fontSize: "1.7rem", cursor: "pointer" }}
+					style={{ color: "#45133c", fontSize: "1.5rem", cursor: "pointer" }}
 					onClick={() => props.onClick(props.id)}
 				/>
 			</div>
