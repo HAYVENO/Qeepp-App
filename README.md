@@ -20,7 +20,10 @@ Qeepp was built using the following technologies:
 
 To use Qeepp, simply clone the repository and install the dependencies:
 
-```git clone https://github.com/your-username/qeepp.git``` 
+``` git clone https://github.com/your-username/qeepp.git 
+npm i
+
+```
 
 Then `cd qeepp`, and `npm install` to install the dependencies. 
 
