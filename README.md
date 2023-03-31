@@ -1,30 +1,31 @@
-# Qeepp - A Note-Taking App
+# QeepApp - A Simple Note-Taking App
 
 https://user-images.githubusercontent.com/98966361/229147324-65c46c08-c2c0-4a32-baa0-64fcf9c8258c.mov
 
 
 
-Qeepp is a simple and intuitive note-taking app built with React that allows users to quickly jot down their thoughts and ideas. With Qeepp, users can easily create, edit, and delete notes, as well as organize them using labels.
+QeepApp is a simple and intuitive note-taking app built with React that allows users to quickly jot down their thoughts and ideas. With QeepApp, users can easily create, edit, and delete notes, as well as organize them using labels.
 
 ## Features
 
 -  **Create notes:** Quickly create new notes with a title and body text.
 -  **Delete notes:** Delete notes that are no longer needed.
--  **Responsive design:** Qeepp's responsive design ensures that the app looks great on any device, from desktops to mobile phones.
+-  **Responsive design:** QeepApp's responsive design ensures that the app looks great on any device, from desktops to mobile phones.
 
 ## Technologies Used
 
-Qeepp was built using the following technologies:
+QeepApp was built using the following technologies:
 
 -  **React:** The app was built with React, a popular JavaScript library for building user interfaces.
 -  **React Hooks:** React Hooks were used to manage the state of the app and handle user interactions.
 -  **Local Storage:** The app uses the browser's Local Storage API to persist notes across sessions. No servers, no privacy breach — your notes, your safe.
 
-## How to Use Qeepp
+## How to Use QeepApp
 
-To use Qeepp, simply clone the repository and install the dependencies using `git clone https://github.com/HAYVENO/Qeepp-App.git` then `cd qeepp-app` to open the directory, and `npm install` to install the dependencies.
+To use QeepApp, simply clone the repository and install the dependencies using `git clone https://github.com/HAYVENO/Qeepp-App.git` then `cd qeepapp` to open the directory, and `npm install` to install the dependencies.
 
 Here is the code snippet:
+
 
 ```
 $ git clone https://github.com/HAYVENO/Qeepp-App.git
@@ -36,8 +37,8 @@ Then, run the app using the following command: npm start.. You can create new no
 
 ## About the Developer
 
-Qeepp was built by me - Yusuf Abdulhafeez (HAYVENO), a React developer with experience in building web applications and user interfaces. This app was built as a way to demonstrate my ability to create simple and functional UIs with React, and to showcase my skills as a developer.
+QeepApp was built by me - Yusuf Abdulhafeez (HAYVENO), a React developer with experience in building web applications and user interfaces. This app was built as a way to demonstrate my ability to create simple and functional UIs with React, and to showcase my skills as a developer.
 
 ## Conclusion
 
-Thank you for checking out Qeepp, a note-taking app built with React. The app is primarily to showcase my basic React and React hooks skills. Most importantly, thanks for checking out my repo. If you appreciate the effort put into this, please do well to star the repo. Thanks ;)
+Thank you for checking out QeepApp, a note-taking app built with React. The app is primarily to showcase my basic React and React hooks skills. Most importantly, thanks for checking out my repo. If you appreciate the effort put into this, please do well to star the repo. Thanks ;)
