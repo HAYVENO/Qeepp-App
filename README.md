@@ -1,10 +1,6 @@
 # Qeepp - A Note-Taking App
 
-
-
-
-https://user-images.githubusercontent.com/98966361/229145805-2c99127d-7076-45a2-9af1-439a9aaae1d3.mov
-
+https://user-images.githubusercontent.com/98966361/229147324-65c46c08-c2c0-4a32-baa0-64fcf9c8258c.mov
 
 
 
