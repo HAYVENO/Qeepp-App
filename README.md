@@ -29,8 +29,11 @@ Here is the code snippet:
 
 ``` bash
 $ git clone https://github.com/HAYVENO/Qeepp-App.git
+
 $ cd qeepp-app
+
 $ npm install
+
 $ npm start
 ```
 
