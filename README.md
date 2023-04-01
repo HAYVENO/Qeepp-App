@@ -10,7 +10,7 @@ QeepApp is a simple and intuitive note-taking app built with React that allows u
 
 -  **Create notes:** Quickly create new notes with a title and body text.
 -  **Delete notes:** Delete notes that are no longer needed.
--  **Responsive design:** QeepApp's responsive design ensures that the app looks great on any device, from desktops to mobile phones.
+-  **Cross-device usage:** QeepApp's responsive design ensures that the app looks great on any device, from desktops to mobile phones. Each with its local storage.
 
 ## Technologies Used
 
@@ -41,4 +41,4 @@ QeepApp was built by me - Yusuf Abdulhafeez (HAYVENO), a React developer with ex
 
 ## Conclusion
 
-Thank you for checking out QeepApp, a note-taking app built with React. The app is primarily to showcase my basic React and React hooks skills. Most importantly, thanks for checking out my repo. If you appreciate the effort put into this, please do well to star the repo. Thanks ;)
+Thank you for checking out QeepApp, a note-taking app built with React. And even more, for checking out my repo.. The app is primarily to showcase my basic React and React hooks skills. If you appreciate the effort put into this, please do well to star the repo. Thanks ;)
