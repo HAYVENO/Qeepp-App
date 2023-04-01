@@ -31,6 +31,7 @@ Here is the code snippet:
 $ git clone https://github.com/HAYVENO/Qeepp-App.git
 $ cd qeepp-app
 $ npm install
+$ npm start
 ```
 
 Then, run the app using the following command: npm start.. You can create new notes, edit existing ones, and organize them using labels. When you're done using the app, your notes will be saved in the browser's Local Storage, so they'll be available the next time you open the app.
