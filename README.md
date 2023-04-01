@@ -39,10 +39,10 @@ $ npm start
 
 Then, run the app using the following command: npm start.. You can create new notes, edit existing ones, and organize them using labels. When you're done using the app, your notes will be saved in the browser's Local Storage, so they'll be available the next time you open the app.
 
-## About the Developer
+## Why QeepApp?
 
-QeepApp was built by me - Yusuf Abdulhafeez (HAYVENO), a React developer with experience in building web applications and user interfaces. This app was built as a way to demonstrate my ability to create simple and functional UIs with React, and to showcase my skills as a developer.
+As a React developer with experience in building web applications and user interfaces, I built QeepApp to demonstrate my ability to create simple and functional UIs with React, and to showcase my skills as a developer.
 
 ## Conclusion
 
-Thank you for checking out QeepApp, a note-taking app built with React. And even more, for checking out my repo.. The app is primarily to showcase my basic React and React hooks skills. If you appreciate the effort put into this, please do well to star the repo. Thanks ;)
+Thank you for checking out QeepApp, a note-taking app built with React. And even more, for checking out my repo. The app is primarily to showcase my basic React and React hooks skills. If you appreciate the effort put into this, please do well to star the repo. Thanks ;)
