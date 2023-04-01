@@ -27,7 +27,7 @@ To use QeepApp, simply clone the repository and install the dependencies using `
 Here is the code snippet:
 
 
-```
+``` bash
 $ git clone https://github.com/HAYVENO/Qeepp-App.git
 $ cd qeepp-app
 $ npm install
