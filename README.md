@@ -2,8 +2,6 @@
 
 https://user-images.githubusercontent.com/98966361/229147324-65c46c08-c2c0-4a32-baa0-64fcf9c8258c.mov
 
-
-
 QeepApp is a simple and intuitive note-taking app built with React that allows users to quickly jot down their thoughts and ideas. With QeepApp, users can easily create, edit, and delete notes, as well as organize them using labels.
 
 ## Features
@@ -26,15 +24,19 @@ To use QeepApp, simply clone the repository and install the dependencies using `
 
 Here is the code snippet:
 
-
-``` bash
+```bash
+# Clone the Qeepp-App repository from GitHub
 $ git clone https://github.com/HAYVENO/Qeepp-App.git
 
+# Change the current directory to the newly cloned repository
 $ cd Qeepp-app
 
+# Install the required dependencies using npm package manager
 $ npm install
 
+# Start the development server for the application
 $ npm start
+
 ```
 
 Then, run the app using the following command: npm start.. You can create new notes, edit existing ones, and organize them using labels. When you're done using the app, your notes will be saved in the browser's Local Storage, so they'll be available the next time you open the app.
