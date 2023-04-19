@@ -24,7 +24,7 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	height: 100vh;
 	/*  */
-	position: fixed;
+	/* position: fixed; */
 	background-size: cover;
 	background-position: fixed;
 	bottom: 0;
@@ -73,14 +73,14 @@ header h1 {
 
 .main-wrap {
 	overflow-y: scroll;
-	max-height: calc(100vh - 59px);
+	max-height: calc(100vh - 79px);
 }
 
 .note-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-bottom: 1.5rem;
+	margin-bottom: 1.5rem 5rem;
 }
 
 .note {
