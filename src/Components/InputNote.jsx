@@ -5,12 +5,13 @@ function InputNote(props) {
 	const [input, setInput] = useState({
 		title: "",
 		content: "",
+		date: "",
 	});
 
 	function handleChange(event) {
-		//not a state, handles ES6's event.target name and value
+		//haandles changes of title, content, and date
 		const { name, value } = event.target;
-		setInput({ ...input, [name]: value });
+		setInput({ ...input, [name]: value, date: new Date().toISOString() });
 	}
 
 	return (
@@ -33,8 +34,9 @@ function InputNote(props) {
 				<button
 					className="submit-btn"
 					onClick={() => {
+						console.log(input);
 						props.onClick(input);
-						setInput({ title: "", content: "" });
+						setInput({ title: "", content: "", date: "" });
 					}}
 				>
 					Add note &nbsp;

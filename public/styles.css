@@ -1,3 +1,13 @@
+:root {
+	--note-color-blue: hsla(208, 100%, 76%, 0.888);
+	--note-color-purple: hsla(268, 100%, 78%, 0.816);
+	--note-color-green: hsla(129, 60%, 71%, 0.837);
+	--note-color-yellow: hsla(48, 96%, 78%, 0.775);
+	--note-color-orange: hsla(15, 98%, 77%, 0.821);
+	--note-color-red: hsla(0, 98%, 77%, 0.821);
+	--color-primary: hsla(0, 0%, 0%, 0.255);
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -12,6 +22,19 @@ body {
 	width: 100%;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	height: 100vh;
+	/*  */
+	position: fixed;
+	background-size: cover;
+	background-position: fixed;
+	bottom: 0;
+	background-repeat: no-repeat;
+}
+
+.header__content-container {
+	display: flex;
+	justify-content: start;
+	align-items: center;
 }
 
 .timer {
@@ -23,20 +46,35 @@ body {
 	padding: 0.4rem 0;
 }
 
+.clock {
+	display: flex;
+	justify-content: center;
+}
+
 header {
-	background: linear-gradient(120deg, #58194e, #ab4182 130%);
+	background-image: linear-gradient(to right, rgb(2 23 59 / 91%), rgb(0 28 79 / 69%) 88%);
+	color: white;
 	position: relative;
 	display: block;
-	padding: 18px 2rem;
+	padding: 0.6rem 1.2rem;
 	width: 100%;
+	backdrop-filter: blur(10px) brightness(0.7);
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
 	color: #fff;
 	font-weight: 200;
+	font-size: 2.8rem;
+	margin-left: 0.5rem;
+	margin-bottom: 0.2rem;
 }
 /* /////////// */
+
+.main-wrap {
+	overflow-y: scroll;
+	max-height: calc(100vh - 59px);
+}
 
 .note-container {
 	display: flex;
@@ -51,14 +89,45 @@ header h1 {
 	justify-content: space-between;
 	font-family: "Comic Neue", sans-serif;
 	position: relative;
-	background: #fff;
-	border-radius: 7px;
-	box-shadow: 0 2px 5px #ccc;
-	padding: 10px;
+	background: hsl(208.08deg 100% 89.81%);
+	border-radius: 8px;
+	padding: 1rem;
 	width: 240px;
 	margin: 16px;
 	float: left;
 	transition: all 0.5s ease-out;
+	backdrop-filter: blur(3px);
+}
+
+/* note cards  */
+.note:nth-of-type(6n + 1) {
+	background-color: var(--note-color-blue);
+	transform: rotate(-3deg);
+}
+
+.note:nth-of-type(6n + 2) {
+	background-color: var(--note-color-purple);
+	transform: rotate(4deg);
+}
+
+.note:nth-of-type(6n + 3) {
+	background-color: var(--note-color-green);
+	transform: rotate(-2deg);
+}
+
+.note:nth-of-type(6n + 4) {
+	background-color: var(--note-color-orange);
+	transform: rotate(1deg);
+}
+
+.note:nth-of-type(6n + 5) {
+	background-color: var(--note-color-yellow);
+	transform: rotate(-5deg);
+}
+
+.note:nth-of-type(6n + 6) {
+	background-color: var(--note-color-red);
+	transform: rotate(2deg);
 }
 
 .note h1 {
@@ -71,14 +140,22 @@ header h1 {
 	color: rgb(0, 0, 0);
 	font-weight: 400;
 	font-size: 0.9rem;
-	margin-bottom: 10px;
+	margin-bottom: 1rem;
 	white-space: pre-wrap;
 	word-wrap: break-word;
 }
 
 .card-btn-wrap {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.note-date {
+	border: 1px solid var(--color-primary);
+	padding: 0.3rem 0.8rem;
+	border-radius: 4px;
+	font-size: 0.65rem;
 }
 
 .card-btn-wrap button {
@@ -89,21 +166,21 @@ header h1 {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-top: 2rem;
 	margin-bottom: 2.5rem;
 }
 
 .input-card {
 	position: relative;
-	background: #fff;
+	background: #ffffffb9;
 	border-radius: 7px;
-	box-shadow: 0 2px 5px #ccc;
 	padding: 10px;
 	width: 240px;
 	margin: 16px;
 }
 
 .input-card input[type="text"] {
-	font-family: monospace;
+	font-family: "comic-neue" sans-serif;
 	box-sizing: border-box;
 	width: 70%;
 	padding: 0.5rem;
@@ -120,6 +197,7 @@ header h1 {
 	width: 100%;
 	text-transform: none;
 	font-size: 0.8rem;
+	padding-bottom: 1.5rem;
 }
 
 .input-card input:focus {
@@ -133,7 +211,7 @@ header h1 {
 	position: absolute;
 	bottom: -15px;
 	right: 22px;
-	background-color: #702759;
+	background-color: rgba(32, 49, 80, 0.8);
 	/* box-shadow: 5px 5px 0px rgb(116, 116, 116); */
 	color: white;
 	padding: 8px 12px;
@@ -175,7 +253,22 @@ footer p {
 .page-container {
 	position: relative;
 	min-height: 100vh;
+
+	/* background image style */
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/* backdrop-filter: brightness(0.7); */
 }
+/* 
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.827);
+} */
 
 .content-wrap {
 	/* position: absolute; */
