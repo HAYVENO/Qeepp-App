@@ -30,6 +30,7 @@ function InputNote(props) {
 					onChange={handleChange}
 					type="text"
 					placeholder="Take a note..."
+					autoComplete="off"
 				/>
 				<button
 					className="submit-btn"
