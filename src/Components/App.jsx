@@ -4,7 +4,7 @@ import Note from "./Note";
 import InputNote from "./InputNote";
 import Footer from "./Footer";
 import dummyNotes from "../util/dummyNotes";
-import getRandomWallpaper from "../hooks/getRandomWallpaper";
+import getRandomWallpaper from "../lib/getRandomWallpaper";
 
 function App() {
 	const now = new Date().toISOString();
