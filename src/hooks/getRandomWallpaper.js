@@ -1,23 +1,11 @@
 import { useEffect } from "react";
 
-const ACCESS_KEY = process.env.UNSPLASH_KEY;
-const SEARCH_TERM = process.env.UNSPLASH_SEARCH_TERM;
+const ACCESS_KEY = process.env.REACT_APP_UNSPLASH_KEY;
+const SEARCH_TERM = process.env.REACT_APP_UNSPLASH_SEARCH_TERM;
 const IMAGE_WIDTH = 1920;
 const IMAGE_HEIGHT = 1080;
 
 function getRandomWallpaper(notesArray) {
-	// const pageHeight = `${document.body.scrollHeight}px`;
-	// console.log("Page height:", pageHeight);
-	// const thresholdHeight = "1700";
-	// console.log(
-	// 	"🚀 ~ file: getRandomWallpaper.js:13 ~ useEffect ~ thresholdHeight:",
-	// 	thresholdHeight
-	// );
-
-	// console.log(pageHeight < thresholdHeight);
-
-	// if (pageHeight < thresholdHeight) return;
-
 	console.log(notesArray.length);
 
 	// Make a request to the Unsplash API to get a random nature photo if condition is met
