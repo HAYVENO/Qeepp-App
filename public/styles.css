@@ -177,6 +177,7 @@ header h1 {
 	padding: 10px;
 	width: 240px;
 	margin: 16px;
+	backdrop-filter: blur(2px);
 }
 
 .input-card input[type="text"] {

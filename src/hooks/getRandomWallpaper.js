@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 
-const ACCESS_KEY = "Nr61Eg6wPGEYbkVpRwa8dDP9pNS7JDz7UxjwOo69z8c";
-const SEARCH_TERM = "nature";
+const ACCESS_KEY = process.env.UNSPLASH_KEY;
+const SEARCH_TERM = process.env.UNSPLASH_SEARCH_TERM;
 const IMAGE_WIDTH = 1920;
 const IMAGE_HEIGHT = 1080;
 

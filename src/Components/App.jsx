@@ -10,7 +10,7 @@ function App() {
 	const now = new Date().toISOString();
 
 	const [time, setTime] = useState(now);
-	const [notesArray, setNotes] = useState(dummyNotes);
+	const [notesArray, setNotes] = useState([...dummyNotes]);
 
 	useEffect(() => {
 		// get wallpaper
