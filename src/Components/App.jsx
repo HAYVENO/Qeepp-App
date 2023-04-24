@@ -13,13 +13,15 @@ function App() {
 	const [notesArray, setNotes] = useState([...dummyNotes]);
 
 	useEffect(() => {
-		// get wallpaper
-		getRandomWallpaper(notesArray);
-
 		const persistedNotes = JSON.parse(localStorage.getItem("notes"));
-		console.log(persistedNotes);
 
-		setNotes((prevNotes) => [...prevNotes, ...persistedNotes]);
+		if (persistedNotes) {
+			setNotes(persistedNotes);
+		} else {
+			setNotes([...dummyNotes]);
+		}
+
+		getRandomWallpaper(notesArray);
 	}, []);
 
 	useEffect(() => {
