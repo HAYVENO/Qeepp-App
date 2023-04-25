@@ -20,9 +20,12 @@ QeepApp was built using the following technologies:
 ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
 
 ### Skill Focus
--  **React:** The app was built with React, a popular JavaScript library for building user interfaces.
--  **React Hooks:** React Hooks were used to manage the state of the app and handle user interactions.
--  **Local Storage:** The app uses the browser's Local Storage API to persist notes across sessions. No servers, no privacy breach — your notes, your safe.
+| Skill | Description |
+|-------|-------------|
+| React | A popular JavaScript library for building user interfaces. |
+| React Hooks | Used to manage the state of the app and handle user interactions. |
+| Local Storage | The app utilizes the browser's Local Storage API to persist notes across sessions without server calls, ensuring privacy, simplicity and security. |
+
 
 ## How to Use QeepApp
 https://user-images.githubusercontent.com/98966361/229147324-65c46c08-c2c0-4a32-baa0-64fcf9c8258c.mov
