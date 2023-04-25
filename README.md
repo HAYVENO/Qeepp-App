@@ -9,6 +9,7 @@ QeepApp is a simple and intuitive note-taking app built with React that allows u
 -  **Create notes:** Quickly create new notes with a title and body text.
 -  **Delete notes:** Delete notes that are no longer needed.
 -  **Cross-device usage:** QeepApp's responsive design ensures that the app looks great on any device, from desktops to mobile phones. Each with its local storage.
+-  **Dynamic UI:** QeepApp's Dynamic UI feature includes a dynamic, beautiful and functional background image, along with a working clock that updates in real-time, giving a fresh experience each session.
 
 ## Technologies Used
 
