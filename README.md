@@ -1,6 +1,6 @@
 # QeepApp - A Simple Note-Taking App
 
-https://user-images.githubusercontent.com/98966361/229147324-65c46c08-c2c0-4a32-baa0-64fcf9c8258c.mov
+![QeepApp view](https://res.cloudinary.com/detye5zx5/image/upload/v1682459995/QeepApp-view_iledx9.png)
 
 QeepApp is a simple and intuitive note-taking app built with React that allows users to quickly jot down their thoughts and ideas. With QeepApp, users can easily create, edit, and delete notes, as well as organize them using labels.
 
@@ -13,12 +13,19 @@ QeepApp is a simple and intuitive note-taking app built with React that allows u
 ## Technologies Used
 
 QeepApp was built using the following technologies:
+![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
+![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
+![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
+![TypeScript](https://img.shields.io/badge/-TypeScript-333333?style=flat&logo=Typescript&logoColor=1572B6)
+![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
 
+### Skill Focus
 -  **React:** The app was built with React, a popular JavaScript library for building user interfaces.
 -  **React Hooks:** React Hooks were used to manage the state of the app and handle user interactions.
 -  **Local Storage:** The app uses the browser's Local Storage API to persist notes across sessions. No servers, no privacy breach — your notes, your safe.
 
 ## How to Use QeepApp
+https://user-images.githubusercontent.com/98966361/229147324-65c46c08-c2c0-4a32-baa0-64fcf9c8258c.mov
 
 To use QeepApp, simply clone the repository and install the dependencies using `git clone https://github.com/HAYVENO/Qeepp-App.git` then `cd Qeepp-app` to open the directory, and `npm install` to install the dependencies, then `npm start` to start the app on your local server.
 
