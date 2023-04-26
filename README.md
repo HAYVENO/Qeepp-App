@@ -1,6 +1,16 @@
 # QeepApp - A Simple Note-Taking App
 
 ![QeepApp view](https://res.cloudinary.com/detye5zx5/image/upload/v1682459995/QeepApp-view_iledx9.png)
+<br/>
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/hayveno/qeepp-app/graphs/commit-activity) 
+[![Website qeep.vercel.app](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://qeep.vercel.app/)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/hayveno/qeepp-app/issues/new)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub license](https://badgen.net/github/license/Naereen/Strapdown.js)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![Latest release](https://badgen.net/github/release/Naereen/Strapdown.js)](https://github.com/hayveno/qeepp-app/releases)
+
+
+
 
 QeepApp is a simple and intuitive note-taking app built with React that allows users to quickly jot down their thoughts and ideas. With QeepApp, users can easily create, edit, and delete notes, as well as organize them using labels.
 
@@ -14,6 +24,7 @@ QeepApp is a simple and intuitive note-taking app built with React that allows u
 ## Technologies Used
 
 QeepApp was built using the following technologies:
+<br/>
 ![JavaScript](https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript)
 ![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
 ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
@@ -56,6 +67,9 @@ Then, run the app using the following command: npm start.. You can create new no
 
 As a React developer with experience in building web applications and user interfaces, I built QeepApp to demonstrate my ability to create simple and functional UIs with React, and to showcase my skills as a developer.
 
+
 ## Conclusion
 
 Thank you for checking out QeepApp, a note-taking app built with React. And even more, for checking out my repo. The app is primarily to showcase my basic React and React hooks skills. If you appreciate the effort put into this, please do well to star the repo. Thanks ;)
+
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
