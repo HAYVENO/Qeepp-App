@@ -7,7 +7,9 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/hayveno/qeepp-app/graphs/commit-activity) 
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/hayveno/qeepp-app/issues/new)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/hayveno/qeepp-app/issues/)
 [![Latest release](https://badgen.net/github/release/Naereen/Strapdown.js)](https://github.com/hayveno/qeepp-app/releases)
+
 
 
 QeepApp is a simple and intuitive note-taking app built with React that allows users to quickly jot down their thoughts and ideas. With QeepApp, users can easily create, edit, and delete notes, as well as organize them using labels. QeepApp is also **fully responsive** so you can access it from your Desktop, Tablet, or mobile phone.
