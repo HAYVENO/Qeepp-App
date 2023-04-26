@@ -2,9 +2,9 @@
 
 ![QeepApp view](https://res.cloudinary.com/detye5zx5/image/upload/v1682459995/QeepApp-view_iledx9.png)
 <br/>
+[![Website qeep.vercel.app](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://qeep.vercel.app/)
 [![GitHub license](https://badgen.net/github/license/Naereen/Strapdown.js)]([https://github.com/hayveno/qeepp-app/main/LICENSE](https://github.com/HAYVENO/Qeepp-App/blob/main/LICENSE))
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/hayveno/qeepp-app/graphs/commit-activity) 
-[![Website qeep.vercel.app](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://qeep.vercel.app/)
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/hayveno/qeepp-app/issues/new)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Latest release](https://badgen.net/github/release/Naereen/Strapdown.js)](https://github.com/hayveno/qeepp-app/releases)
