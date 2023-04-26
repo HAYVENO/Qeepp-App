@@ -12,7 +12,7 @@
 
 
 
-QeepApp is a simple and intuitive note-taking app built with React that allows users to quickly jot down their thoughts and ideas. With QeepApp, users can easily create, edit, and delete notes, as well as organize them using labels. QeepApp is also **fully responsive** so you can access it from your Desktop, Tablet, or mobile phone.
+<a href="https://qeep.vercel.app/" target="_blank" >QeepApp</a>  is a simple and intuitive note-taking app built with React that allows users to quickly jot down their thoughts and ideas. With QeepApp, users can easily create, edit, and delete notes, as well as organize them using labels. QeepApp is also **fully responsive** so you can access it from your Desktop, Tablet, or mobile phone.
 
 ## Features
 
