@@ -7,7 +7,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/hayveno/qeepp-app/graphs/commit-activity) 
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/hayveno/qeepp-app/issues/new)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/hayveno/qeepp-app/issues/)
+[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)]([https://github.com/hayveno/qeepp-app/issues/](https://github.com/HAYVENO/Qeepp-App/issues))
 [![Latest release](https://badgen.net/github/release/Naereen/Strapdown.js)](https://github.com/hayveno/qeepp-app/releases)
 
 
