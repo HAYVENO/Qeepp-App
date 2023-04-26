@@ -73,3 +73,4 @@ As a React developer with experience in building web applications and user inter
 Thank you for checking out QeepApp, a note-taking app built with React. And even more, for checking out my repo. The app is primarily to showcase my basic React and React hooks skills. If you appreciate the effort put into this, please do well to star the repo. Thanks ;)
 
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/hayveno/Nookr-app/issues/new)
