@@ -10,7 +10,7 @@
 [![Latest release](https://badgen.net/github/release/Naereen/Strapdown.js)](https://github.com/hayveno/qeepp-app/releases)
 
 
-QeepApp is a simple and intuitive note-taking app built with React that allows users to quickly jot down their thoughts and ideas. With QeepApp, users can easily create, edit, and delete notes, as well as organize them using labels.
+QeepApp is a simple and intuitive note-taking app built with React that allows users to quickly jot down their thoughts and ideas. With QeepApp, users can easily create, edit, and delete notes, as well as organize them using labels. QeepApp is also **fully responsive** so you can access it from your Desktop, Tablet, or mobile phone.
 
 ## Features
 
