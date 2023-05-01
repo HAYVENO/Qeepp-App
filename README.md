@@ -37,6 +37,7 @@ QeepApp was built using the following technologies:
 | React | A popular JavaScript library for building user interfaces. |
 | React Hooks | Used to manage the state of the app and handle user interactions. |
 | Local Storage | The app utilizes the browser's Local Storage API to persist notes across sessions without server calls, ensuring privacy, simplicity and security. |
+| Typescript | A statically typed superset of JavaScript that adds optional types to JavaScript. TypeScript helps catch errors early in the development process and provides enhanced developer tooling.|
 
 
 ## How to Use QeepApp
