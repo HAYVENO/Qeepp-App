@@ -7,9 +7,6 @@ import dummyNotes, { dummyNotesProps } from "./util/dummyNotes";
 import getRandomWallpaper from "./util/getRandomWallpaper";
 
 const App: React.FC = () => {
-	const now = new Date().toISOString();
-
-	const [time, setTime] = useState(now);
 	const [notesArray, setNotes] = useState<NoteProps[]>([]);
 
 	useEffect(() => {
@@ -28,12 +25,6 @@ const App: React.FC = () => {
 	useEffect(() => {
 		localStorage.setItem("notes", JSON.stringify(notesArray));
 	}, [notesArray]);
-
-	function updateTime() {
-		const newNow = new Date().toLocaleTimeString();
-		setTime(newNow);
-	}
-	setInterval(updateTime, 1000);
 
 	function handleClick(input: any) {
 		// If there is no Note title, do nothing
