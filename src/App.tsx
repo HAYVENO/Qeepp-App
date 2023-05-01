@@ -1,19 +1,20 @@
 import React, { useState, useEffect } from "react";
-import Header from "./Header";
-import Note from "./Note";
-import InputNote from "./InputNote";
-import Footer from "./Footer";
-import dummyNotes from "../util/dummyNotes";
-import getRandomWallpaper from "../lib/getRandomWallpaper";
+import Header from "./Components/Header";
+import Note, { NoteProps } from "./Components/Note";
+import InputNote from "./Components/InputNote";
+import Footer from "./Components/Footer";
+import dummyNotes, { dummyNotesProps } from "./util/dummyNotes";
+import getRandomWallpaper from "./util/getRandomWallpaper";
 
-function App() {
+const App: React.FC = () => {
 	const now = new Date().toISOString();
 
 	const [time, setTime] = useState(now);
-	const [notesArray, setNotes] = useState([...dummyNotes]);
+	const [notesArray, setNotes] = useState<NoteProps[]>([]);
 
 	useEffect(() => {
-		const persistedNotes = JSON.parse(localStorage.getItem("notes"));
+		const persistedNotesJson = localStorage.getItem("notes");
+		const persistedNotes = persistedNotesJson ? JSON.parse(persistedNotesJson) : null;
 
 		if (persistedNotes) {
 			setNotes(persistedNotes);
@@ -21,7 +22,7 @@ function App() {
 			setNotes([...dummyNotes]);
 		}
 
-		getRandomWallpaper(notesArray);
+		getRandomWallpaper();
 	}, []);
 
 	useEffect(() => {
@@ -34,7 +35,7 @@ function App() {
 	}
 	setInterval(updateTime, 1000);
 
-	function handleClick(input) {
+	function handleClick(input: any) {
 		// If there is no Note title, do nothing
 		console.log(input);
 		if (!input.title) return;
@@ -44,7 +45,7 @@ function App() {
 		setNotes([input, ...notesArray]);
 	}
 
-	function deleteItem(id) {
+	function deleteItem(id?: number) {
 		const filteredItems = notesArray.filter((x, index) => index !== id);
 		setNotes(filteredItems);
 	}
@@ -72,6 +73,6 @@ function App() {
 			</div>
 		</div>
 	);
-}
+};
 
 export default App;

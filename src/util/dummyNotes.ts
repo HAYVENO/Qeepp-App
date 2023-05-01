@@ -1,4 +1,10 @@
-const dummyNotes = [
+export interface dummyNotesProps {
+	title: string;
+	content: string;
+	date: string | Date;
+}
+
+const dummyNotes: dummyNotesProps[] = [
 	{
 		title: "Grocery List",
 		content: "Milk, eggs, bread, cheese, beer (for later). Don't forget!",

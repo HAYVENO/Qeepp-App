@@ -2,7 +2,15 @@ import React from "react";
 import { AiFillDelete } from "react-icons/ai";
 import dayjs from "dayjs";
 
-function Note({ id, title, content, date, onDelete }) {
+export interface NoteProps {
+	id?: number;
+	title: string;
+	content: string;
+	date: Date | string;
+	onDelete?: (id?: number) => void;
+}
+
+const Note: React.FC<NoteProps> = ({ id, title, content, date, onDelete }: NoteProps) => {
 	return (
 		<div className="note" style={{ backgroundColor: "" }}>
 			<h1>{title}</h1>
@@ -16,11 +24,11 @@ function Note({ id, title, content, date, onDelete }) {
 				</div>
 				<AiFillDelete
 					style={{ color: "#45133c", fontSize: "1.5rem", cursor: "pointer" }}
-					onClick={() => onDelete(id)}
+					onClick={() => (onDelete ? onDelete(id) : null)}
 				/>
 			</div>
 		</div>
 	);
-}
+};
 
 export default Note;
