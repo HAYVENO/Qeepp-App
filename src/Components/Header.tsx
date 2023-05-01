@@ -1,6 +1,6 @@
 import React from "react";
 
-function Header() {
+const Header: React.FC = () => {
 	return (
 		<header className="header__content-container">
 			<iframe
@@ -13,6 +13,6 @@ function Header() {
 			<h1>QeepApp.</h1>
 		</header>
 	);
-}
+};
 
 export default Header;

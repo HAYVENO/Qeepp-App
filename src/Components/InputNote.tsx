@@ -1,15 +1,20 @@
 import React, { useState } from "react";
 import { BsPen } from "react-icons/bs";
+import { NoteProps } from "./Note";
 
-function InputNote(props) {
-	const [input, setInput] = useState({
+interface InputNoteProps {
+	onClick: (input: NoteProps) => void;
+}
+
+function InputNote(props: InputNoteProps) {
+	const [input, setInput] = useState<any>({
 		title: "",
 		content: "",
 		date: "",
 	});
 
-	function handleChange(event) {
-		//haandles changes of title, content, and date
+	function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
+		//handles changes of title, content, and date
 		const { name, value } = event.target;
 		setInput({ ...input, [name]: value, date: new Date().toISOString() });
 	}
