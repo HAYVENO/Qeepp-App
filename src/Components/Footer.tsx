@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					HAYVENODE
+					Yusuf Abdulhafeez
 				</a>
 				<LinkPreview imageUrl="https://res.cloudinary.com/detye5zx5/image/upload/v1683667680/hayveno-github-profile_nxslwy.png" />{" "}
 				&copy; All Rights Reserved
