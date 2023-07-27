@@ -11,7 +11,9 @@ const App: React.FC = () => {
 
 	useEffect(() => {
 		const persistedNotesJson = localStorage.getItem("notes");
-		const persistedNotes = persistedNotesJson ? JSON.parse(persistedNotesJson) : null;
+		const persistedNotes = persistedNotesJson
+			? JSON.parse(persistedNotesJson)
+			: null;
 
 		if (persistedNotes) {
 			setNotes(persistedNotes);
