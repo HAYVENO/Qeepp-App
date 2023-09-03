@@ -40,7 +40,6 @@ QeepApp was built using the following technologies:
 
 
 ## How to Use QeepApp
-https://user-images.githubusercontent.com/98966361/229147324-65c46c08-c2c0-4a32-baa0-64fcf9c8258c.mov
 
 To use QeepApp, simply clone the repository and install the dependencies using `git clone https://github.com/HAYVENO/Qeepp-App.git` then `cd Qeepp-app` to open the directory, and `npm install` to install the dependencies, then `npm start` to start the app on your local server.
 
