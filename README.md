@@ -39,9 +39,9 @@ QeepApp was built using the following technologies:
 | Typescript | A statically typed superset of JavaScript that adds optional types to JavaScript. TypeScript helps catch errors early in the development process and provides enhanced developer tooling.|
 
 
-## How to Use QeepApp
+## How to Set Up and Run Qeepp App Locally
 
-To use QeepApp, simply clone the repository and install the dependencies using `git clone https://github.com/HAYVENO/Qeepp-App.git` then `cd Qeepp-app` to open the directory, and `npm install` to install the dependencies, then `npm start` to start the app on your local server.
+To improve QeepApp, simply clone the repository and install the dependencies using `git clone https://github.com/HAYVENO/Qeepp-App.git` then `cd Qeepp-app` to open the directory, and `npm install` to install the dependencies, then `npm start` to start the app on your local server.
 
 Here is the code snippet:
 
