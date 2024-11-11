@@ -53,14 +53,6 @@ QeepApp was built using the following technologies:
 ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
 ![React](https://img.shields.io/badge/-React-333333?style=flat&logo=react)
 
-### Skill Focus
-| Skill | Description |
-|-------|-------------|
-| React | A popular JavaScript library for building user interfaces. |
-| React Hooks | Used to manage the state of the app and handle user interactions. |
-| Local Storage | The app utilizes the browser's Local Storage API to persist notes across sessions without server calls, ensuring privacy, simplicity and security. |
-| Typescript | A statically typed superset of JavaScript that adds optional types to JavaScript. TypeScript helps catch errors early in the development process and provides enhanced developer tooling.|
-
 
 ## Contributing
 
@@ -110,6 +102,14 @@ git push origin feature/your-feature-name
 - **Clear Comments:** Include meaningful comments to explain complex logic or non-obvious code sections.
 - **Comprehensive Testing:** Write thorough tests to ensure code quality and prevent regressions.
 - Keep pull requests focused on a single feature or fix
+
+### Project Tech Stack
+| Skill | Description |
+|-------|-------------|
+| React | A popular JavaScript library for building user interfaces. |
+| React Hooks | Used to manage the state of the app and handle user interactions. |
+| Local Storage | The app utilizes the browser's Local Storage API to persist notes across sessions without server calls, ensuring privacy, simplicity and security. |
+| Typescript | A statically typed superset of JavaScript that adds optional types to JavaScript. TypeScript helps catch errors early in the development process and provides enhanced developer tooling.|
 
 ### Need Help?
 Feel free to open an issue for:
